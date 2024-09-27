@@ -1,84 +1,131 @@
-/* Estilos gerais */
+/* Estilos gerais do corpo */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  color: #333;
 }
 
+/* Estilos do cabeçalho */
 header {
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
-header nav ul {
+nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-header nav ul li {
+nav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
-header nav ul li a {
+nav a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
-/* Seção de esportes */
+/* Estilos das seções */
+section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilos específicos das seções */
 section:nth-of-type(1) {
-  background-color: #ffeb3b;
-  padding: 20px;
+  background-color: #ffeb3b; /* Amarelo para Esportes */
 }
 
-section:nth-of-type(1) h2 {
-  color: #ff9800;
-}
-
-/* Seção de economia */
 section:nth-of-type(2) {
-  background-color: #00bcd4;
-  padding: 20px;
+  background-color: #2196f3; /* Azul para Economia */
 }
 
-section:nth-of-type(2) h2 {
-  color: #306b65;
+section:nth-of-type(3) {
+  background-color: #ff4081; /* Rosa para Entretenimento */
 }
 
-/* Estilo de artigos */
+section:nth-of-type(4) {
+  background-color: #4caf50; /* Verde para Tecnologia */
+}
+
+/* Estilos dos artigos */
 article {
   background-color: white;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 15px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 article img {
   max-width: 100%;
+  height: auto;
   border-radius: 5px;
 }
 
 article header {
-  font-size: 0.8rem;
-  color: #777;
+  font-size: 0.9em;
+  color: #888;
 }
 
-article h3 {
+/* Estilos das headings */
+h2 {
   color: #333;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+/* Estilos do parágrafo */
+p {
+  color: #555;
+}
+
+/* Estilos dos botões */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
   margin-top: 10px;
-}
-
-article p {
-  line-height: 1.6;
-}
-
-article a {
+  border: none;
+  border-radius: 5px;
+  color: white;
   text-decoration: none;
-  color: #4CAF50;
-  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos específicos dos botões por seção */
+.sports-button {
+  background-color: #ff5722; /* Cor para Esportes */
+}
+
+.economy-button {
+  background-color: #3f51b5; /* Cor para Economia */
+}
+
+.entertainment-button {
+  background-color: #ff4081; /* Cor para Entretenimento */
+}
+
+.technology-button {
+  background-color: #4CAF50; /* Cor para Tecnologia */
+}
+
+/* Efeitos de hover nos botões */
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Estilo de rodapé (opcional) */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
 }
