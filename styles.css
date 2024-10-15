@@ -18,7 +18,7 @@ body, input, textarea {
 
 header {
   padding: 16px 0;
-  background-color: #182c61;
+  background-color: #e3c504de;
   color: #ecf0f1;
 }
 
@@ -61,16 +61,16 @@ section .container {
 
 section {
   padding: 24px 0;
-  color: #182c61;
+  color: #e3c504de;
 }
 
 section h2 {
   margin-bottom: 16px;
-  color: #182c61;
+  color: #e3c504de;
 }
 
 section {
-  color: #182c61;
+  color: #7e828c;
 }
 
 section p {
@@ -79,6 +79,9 @@ section p {
 
 .store-front {
   margin-right: 32px;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
 }
 
 .social-links img {
@@ -122,22 +125,22 @@ section h3 {
 }
 
 form button {
-  background-color: #182c61;
+  background-color: #e3c504de;
   color: #ecf0f1;
   border: none;
   cursor: pointer;
 }
 
 form button:hover {
-  background-color: #314e9e;
+  background-color: #a69e05;
 }
 
 input:focus, textarea:focus {
-  outline-color:#182c61 ;
+  outline-color:#e3c504de ;
 }
 
 footer {
-  background-color: #182c61;
-  color: #ecf0f1;
+  background-color: #e3c504de;
+  color: #7e828c;
   padding: 16px 0 ;
 }
